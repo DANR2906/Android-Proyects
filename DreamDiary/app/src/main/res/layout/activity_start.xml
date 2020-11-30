@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+    />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login"
+        android:layout_below="@+id/appName"
+        android:background="@drawable/border_button_login"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="startLogin"
+    />
+
+    <Button
+        android:id="@+id/button_sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_signin"
+        android:layout_below="@+id/button_login"
+        android:background="@drawable/border_button_signin"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:onClick="startSignin"
+    />
+
+    <Button
+        android:id="@+id/button_local_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_local_login"
+        android:layout_below="@+id/button_sigin"
+        android:background="@drawable/border_button_local_login"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="startMain"
+        />
+
+
+</RelativeLayout>

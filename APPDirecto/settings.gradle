@@ -1,0 +1,2 @@
+rootProject.name='APPDirecto'
+include ':app'

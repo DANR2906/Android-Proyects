@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "743125989045",
+    "firebase_url": "https://diariocovid-b5cde.firebaseio.com",
+    "project_id": "diariocovid-b5cde",
+    "storage_bucket": "diariocovid-b5cde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743125989045:android:16ede8604baf7635e8b0fc",
+        "android_client_info": {
+          "package_name": "com.diariocovidproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcpy_v5nZ54fA5W2FKCZS5VRSQoreboOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743125989045:android:782efe20634e9c41e8b0fc",
+        "android_client_info": {
+          "package_name": "com.diarioproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcpy_v5nZ54fA5W2FKCZS5VRSQoreboOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743125989045:android:877a3bf58d80f406e8b0fc",
+        "android_client_info": {
+          "package_name": "com.example.diariocovidproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcpy_v5nZ54fA5W2FKCZS5VRSQoreboOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743125989045-umqh3a5i73jmit54aq40el3o53h2ol2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

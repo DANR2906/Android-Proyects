@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninActivity"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tittle_sigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_signin"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+        />
+
+        <EditText
+            android:id="@+id/field_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            android:inputType="text"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/border_sign_in_fields"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+        />
+
+        <EditText
+            android:id="@+id/field_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/border_sign_in_fields"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+        />
+
+        <EditText
+            android:id="@+id/field_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/border_sign_in_fields"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+        />
+
+        <EditText
+            android:id="@+id/field_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_birthdate"
+            android:inputType="datetime"
+            android:textColorHint="@android:color/black"
+            android:background="@drawable/border_sign_in_fields"
+            android:layout_marginTop="10dp"
+            android:onClick="showDatePickerDialog"
+            android:focusable="false"
+            android:importantForAutofill="no"
+        />
+
+        <Button
+            android:id="@+id/button_continue_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_button_continue_sign_in"
+            android:text="@string/button_continue_sign_in"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+        />
+
+        <ProgressBar
+            android:id="@+id/progressbar_sign_in"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/progressbar_style_v1"
+            android:visibility="invisible"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

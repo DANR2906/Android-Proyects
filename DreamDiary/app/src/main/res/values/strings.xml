@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Dream Diary</string>
+    <!--- StartActivity -->
+    <string name="button_login">Iniciar sesión</string>
+    <string name="button_signin">Registrarse</string>
+    <string name="button_local_login">Ingresar</string>
+
+    <!--- Toast Messages -->
+    <string name="toast_login_error">Temporalmete deshabilitado</string>
+    <string name="toast_signin_error">Temporalmete deshabilitado</string>
+
+    <!--- SignInActivity -->
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Clave</string>
+    <string name="hint_birthdate">Fecha de nacimiento Mes/Dia/Año</string>
+
+    <string name="button_continue_sign_in">Continuar</string>
+
+    <!--- Toast Messages -->
+    <string name="toast_sign_in_register_error">No se pudo realizar el registro con este Email o Contraseña</string>
+    <string name="toast_sign_in_empty_field_error">Todos los campos son requeridos</string>
+    <string name="toast_sign_in_password_minimum_length">La clave debe ser de al menos 5 caracteres</string>
+
+    <!--- LoginActivity -->
+
+    <!--- Toast Messages -->
+    <string name="toast_login_empty_field_error">Todos los campos son requeridos</string>
+    <string name="toast_login_authentication_error">Fallo de autentificación</string>
+
+
+    <!--- Menus -->
+    <string name="menu_main_new_dream_tittle">Agregar</string>
+
+    <!--- CreateDreamNote -->
+    <string name="hint_tittle_new_dream">Titulo</string>
+    <string name="hint_date_new_dream">Fecha</string>
+    <string name="hint_dream_text_new_dream">Copia tu sueño aquí...</string>
+    <string name="button_save_dream">Guardar</string>
+    <!--- Toast Messages -->
+    <string name="toast_createDreamNote_empty_field_error">Todos los campos son requeridos</string>
+    <string name="toast_createDreamNote_insertion_database_error">No se pudo guardar exitosamente</string>
+    <string name="toast_createDreamNote_insertion_database_successful">Se ha guardado exitosamente</string>
+
+    <!--- MainActivity -->
+
+    <!--- Toast Messages -->
+    <string name="toast_main_deleting_database_error">No se pudo eliminar el sueño correctamente</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--- Fragment_View_Dream -->
+    <string name="button_continue">Continuar</string>
+
+
+</resources>

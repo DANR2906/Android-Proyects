@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="#2F03DAC5">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+
+        <EditText
+            android:id="@+id/L_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/L_clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clave"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/restablecer_clave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restablecer contraseña"/>
+
+
+        <Button
+            android:id="@+id/L_ingresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

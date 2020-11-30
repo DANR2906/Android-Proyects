@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="#2F03DAC5">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/boton_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/appName"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:onClick="startIngreso"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/boton_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/boton_ingresar"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:onClick="startRegistro"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/boton_diario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diario"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/boton_registrar"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:onClick="startDiario"
+        />
+
+
+
+</RelativeLayout>

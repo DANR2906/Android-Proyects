@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiarioActivity"
+    android:background="#2F03DAC5">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/entrada_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="#Dia"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/agregar_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar dia"
+            android:layout_toRightOf="@+id/entrada_dia"
+            android:gravity="center"
+            android:background="@drawable/borde_boton"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:onClick="guardarDia"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_layout1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

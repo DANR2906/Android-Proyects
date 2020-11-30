@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffff">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_muro_mensaje">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/like"
+            android:src="@drawable/ic_favorite"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagen_perfil"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_person_red"
+            android:layout_toRightOf="@+id/like"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imagen_perfil"
+            android:text="UserName"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="12dp"
+            android:id="@+id/eliminar_like"
+            android:text="x"
+            android:textSize="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

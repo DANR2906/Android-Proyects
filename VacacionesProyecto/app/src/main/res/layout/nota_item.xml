@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/borde_nota"
+    android:id="@+id/relative_layout"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_nota"
+        android:text="Titulo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@+id/borrar_nota"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha_nota"
+        android:text="10/20"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/titulo_nota"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/borrar_nota"
+        android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>
