@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/diario"
+        android:title="Diario"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_library_books"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh"
+        />
+
+    <item
+        android:id="@+id/menu"
+        android:title="Menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComentariosActivity"
+    >
+
+    <include
+        layout="@layout/bar_layout"
+        android:id="@+id/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        android:layout_above="@+id/layout_comentarios"
+        android:layout_below="@+id/toolbar"
+        android:padding="5dp"
+        android:background="#B2D9D5DF"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_comentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/comentarios_texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comentar esta publicación"
+            android:layout_toLeftOf="@+id/boton_enviar_comentario"
+            android:textSize="15sp"/>
+
+        <ImageButton
+            android:id="@+id/boton_enviar_comentario"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_boton_enviar"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:onClick="enviarComentario"/>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

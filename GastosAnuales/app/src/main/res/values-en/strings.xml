@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G.A</string>
+    <string name="Splash_MSG">FROM:D.G Company</string>
+
+    <string name="Calendar_BarChartGrafic_Total">Total</string>
+    <string name="Calendar_BarChartGrafic_Week1">First week</string>
+    <string name="Calendar_BarChartGrafic_Week2">Second week</string>
+    <string name="Calendar_BarChartGrafic_Week3">Third week</string>
+    <string name="Calendar_BarChartGrafic_Week4">Fourth week</string>
+
+
+    <string name="Main_Top_TV_MSG">Expenses of the Month</string>
+    <string name="Main_TV_Error">No data to show</string>
+    <string name="Main_Alert_DontHaveNote">There is no note to show</string>
+    <string name="Main_Alert_NoteTittle">Title:</string>
+    <string name="Main_Alert_NoteTittle2">Note</string>
+    <string name="Calendar_Alert_ChangeGrafic">Coming soon</string>
+
+    <string name="Main_Text_SeeMonth">See Expenses of the month</string>
+    <string name="Main_List_Week">Week</string>
+    <string name="Main_List_Title">Title</string>
+    <string name="Main_List_Value">Value</string>
+    <string name="Main_List_Date">Date</string>
+
+    <string name="Main_Alert_MSG1">Are you sure to eliminate this expense?</string>
+    <string name="Main_Alert_Title1">Warning</string>
+    <string name="Main_Alert_APPClose">Do you want to exit the application?</string>
+    <string name="Main_Alert_EditNote">Enter the new note</string>
+    <string name="Main_Alert_EditNoteTitle">Edit note</string>
+    <string name="Main_Alert_EditNoteHint">New note</string>
+
+
+    <string name="SEXP_Alert_ExistenceExpense">This title already exists</string>
+
+    <string name="Main_Alert_Button1">Accept</string>
+    <string name="Main_Alert_Button2">Cancel</string>
+
+
+    <string name="SEXP_Hint_Title">Title</string>
+    <string name="SEXP_Hint_Value">Value</string>
+    <string name="SEXP_Hint_Date">Date</string>
+    <string name="SEXP_Hint_Note">Note</string>
+    <string name="SEXP_Text_Save">Save</string>
+    <string name="SEXP_Text_SeeExpenses">See expenses</string>
+    <string name="SEXP_RB_FirstWeek">First Week</string>
+    <string name="SEXP_RB_SecondWeek">Second Week</string>
+    <string name="SEXP_RB_ThirdWeek">Third week</string>
+    <string name="SEXP_RB_FourthWeek">Fourth week</string>
+
+
+    <string name="SEXP_Months_1">January</string>
+    <string name="SEXP_Months_2">February</string>
+    <string name="SEXP_Months_3">March</string>
+    <string name="SEXP_Months_4">April</string>
+    <string name="SEXP_Months_5">May</string>
+    <string name="SEXP_Months_6">June</string>
+    <string name="SEXP_Months_7">July</string>
+    <string name="SEXP_Months_8">August</string>
+    <string name="SEXP_Months_9">September</string>
+    <string name="SEXP_Months_10">October</string>
+    <string name="SEXP_Months_11">November</string>
+    <string name="SEXP_Months_12">December</string>
+
+
+    <string name="Mensage_Alert_EmptyFields">Fill in the fields</string>
+    <string name="Mensage_Alert_EmptyWeek">Select a week</string>
+
+</resources>

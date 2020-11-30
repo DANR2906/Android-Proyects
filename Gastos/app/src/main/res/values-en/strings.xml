@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Expenses</string>
+    <string name="msg_Bienvenido">Welcome</string>
+    <string name="MAIN_Button_Ingreso">Log in</string>
+    <string name="MAIN_txt_nombre">Enter your name</string>
+    <string name="MAIN_txt_apellido">Enter your last name</string>
+    <string name="AVATAR_txt_elegirAvatar">Select your avatar</string>
+    <string name="INGRESO_presupuesto">Weekly budget</string>
+    <string name="INGRESO_Titulo">Title of expenditure</string>
+    <string name="INGRESO_valorGadto">Expense value</string>
+    <string name="INGRESO_Fecha">Date of expenditure</string>
+    <string name="INGRESO_Button_Guardar">Save</string>
+    <string name="INGRESO_Actualizar">Update budget</string>
+    <string name="textview">TextView</string>
+    <string name="INGRESO_ET_NEWPRESUPUESTO">New budget</string>
+    <string name="INGRESO_Button_Reini">Restart Week</string>
+    <string name="INGRESO_Button_Histo">See expenses</string>
+    <string name="GASTOS_TituloGasto">Title of the expense</string>
+    <string name="GASTOS_BORRAR">Delete</string>
+    <string name="GASTOS_VOLVER">Go back</string>
+    <string name="INGRESO_verSemanaAnterior">see previous week</string>
+    <string name="GASTOS2_semanaAnterior">Last week</string>
+    <string name="INGRESO_TotalGastado">Total spend</string>
+    <string name="INGRESO_TotalAhorrado">Total saved</string>
+    <string name="INGRESO_PresupuestoMSG">Budget</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FireBase Proyect</string>
+
+
+    <string name="Start_msgTop">ChatAPP</string>
+
+    <string name="Register_msgCreate">Crear una cuenta</string>
+    <string name="Register_msgUserName">Nombre de usuario</string>
+    <string name="Register_msgEmail">Email</string>
+    <string name="Register_msgPassword">Clave</string>
+    <string name="Register_msgRegister">Registrar</string>
+
+
+    <string name="Login_msgLogin">Ingresar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

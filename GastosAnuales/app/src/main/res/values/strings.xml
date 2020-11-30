@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">G.A</string>
+    <string name="Splash_MSG">FROM:D.G Company</string>
+
+    <string name="Calendar_BarChartGrafic_Total">Total</string>
+    <string name="Calendar_BarChartGrafic_Week1">Primera semana</string>
+    <string name="Calendar_BarChartGrafic_Week2">Segunda semana</string>
+    <string name="Calendar_BarChartGrafic_Week3">Tercera semana</string>
+    <string name="Calendar_BarChartGrafic_Week4">Cuarta semana</string>
+
+
+    <string name="Main_Top_TV_MSG">Gastos Del Mes</string>
+    <string name="Main_TV_Error">No hay datos a mostrar</string>
+    <string name="Main_Alert_DontHaveNote">No hay nota a mostrar</string>
+    <string name="Main_Alert_NoteTittle">Titulo:</string>
+    <string name="Main_Alert_NoteTittle2">Nota</string>
+    <string name="Calendar_Alert_ChangeGrafic">Próximamente disponible</string>
+
+    <string name="Main_Text_SeeMonth">Ver Gastos Del mes</string>
+    <string name="Main_List_Week">Semana</string>
+    <string name="Main_List_Title">Titulo</string>
+    <string name="Main_List_Value">Valor</string>
+    <string name="Main_List_Date">Fecha</string>
+
+    <string name="Main_Alert_MSG1">Esta seguro de eliminar este gasto?</string>
+    <string name="Main_Alert_Title1">Advertencia</string>
+    <string name="Main_Alert_APPClose">¿Desea salir de la aplicacion?</string>
+    <string name="Main_Alert_EditNote">Ingrese la nueva nota</string>
+    <string name="Main_Alert_EditNoteTitle">Editar Nota</string>
+    <string name="Main_Alert_EditNoteHint">Nueva nota</string>
+
+
+    <string name="SEXP_Alert_ExistenceExpense">Este titulo ya existe</string>
+
+    <string name="Main_Alert_Button1">Aceptar</string>
+    <string name="Main_Alert_Button2">Cancelar</string>
+
+
+    <string name="SEXP_Hint_Title">Titulo</string>
+    <string name="SEXP_Hint_Value">Valor</string>
+    <string name="SEXP_Hint_Date">Fecha</string>
+    <string name="SEXP_Hint_Note">Nota</string>
+    <string name="SEXP_Text_Save">Guardar</string>
+    <string name="SEXP_Text_SeeExpenses">Ver Gastos</string>
+    <string name="SEXP_RB_FirstWeek">Primera semana</string>
+    <string name="SEXP_RB_SecondWeek">Segunda semana</string>
+    <string name="SEXP_RB_ThirdWeek">Tercera semana</string>
+    <string name="SEXP_RB_FourthWeek">Cuarta semana</string>
+
+
+    <string name="SEXP_Months_1">Enero</string>
+    <string name="SEXP_Months_2">Febrero</string>
+    <string name="SEXP_Months_3">Marzo</string>
+    <string name="SEXP_Months_4">Abril</string>
+    <string name="SEXP_Months_5">Mayo</string>
+    <string name="SEXP_Months_6">Junio</string>
+    <string name="SEXP_Months_7">Julio</string>
+    <string name="SEXP_Months_8">Agosto</string>
+    <string name="SEXP_Months_9">Septiembre</string>
+    <string name="SEXP_Months_10">Octubre</string>
+    <string name="SEXP_Months_11">Noviembre</string>
+    <string name="SEXP_Months_12">Diciembre</string>
+
+
+    <string name="Mensage_Alert_EmptyFields">Rellene los campos</string>
+    <string name="Mensage_Alert_EmptyWeek">Seleccione una semana</string>
+
+
+</resources>

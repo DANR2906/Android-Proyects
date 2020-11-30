@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VacacionesProyecto</string>
+
+    <string name="Descripcion_defecto"></string>
+
+    <string name="CrearNota_hint_titulo">Titulo</string>
+    <string name="CrearNota_hint_texto">Nota</string>
+
+    <string name="CrearNota_Alerta_CamposVacios">Rellene los campos vacios</string>
+    <string name="CrearNota_Alerta_Guardado_Exitoso">Nota Guardada</string>
+
+</resources>

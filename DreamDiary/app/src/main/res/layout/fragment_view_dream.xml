@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".viewDream"
+    android:padding="2dp"
+    android:background="#31A0CD">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        >
+
+        <EditText
+            android:id="@+id/field_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:textStyle="bold"
+            android:hint="@string/hint_date_new_dream"
+            android:background="@drawable/border_date_field_new_dream"
+            android:layout_marginEnd="100dp"
+            android:autofillHints="no"
+            android:focusable="false"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/field_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:hint="@string/hint_tittle_new_dream"
+            android:background="@drawable/border_tittle_field_new_dream"
+            android:layout_below="@+id/field_date"
+            android:layout_marginTop="10dp"
+            android:importantForAutofill="no"
+            android:focusable="false"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_dream_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout_tittle"
+        android:layout_marginTop="5dp"
+        android:padding="5dp">
+
+        <ScrollView
+            android:id="@+id/scroll_dream_note"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/border_dream_text_scroll_new_dream"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/field_dream_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_dream_text_new_dream"
+                android:padding="4dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:focusable="false"/>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_continue_view_dream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_continue"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_button_save_dream"
+        android:layout_below="@+id/relative_layout_dream_field"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+
+</RelativeLayout>

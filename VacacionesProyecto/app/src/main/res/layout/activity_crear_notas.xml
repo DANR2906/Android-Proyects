@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotasApp.CrearNotas"
+    android:id="@+id/relative_layout_general"
+    android:background="#fff"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/Theme.AppCompat.Light"
+            app:popupTheme="@style/MenuStyle">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_nota"
+        android:hint="@string/CrearNota_hint_titulo"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/bar_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/scroll_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo_nota"
+        android:layout_above="@+id/configuracion_notas"
+        android:background="@drawable/borde_configuracion"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+            <EditText
+                android:id="@+id/texto_nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/CrearNota_hint_texto"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="normal"/>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/configuracion_notas"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_configuracion"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5sp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/color_texto"
+                    android:onClick="abrirConfiguracionColores"/>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/color_fondo"
+                    android:onClick="abrirConfiguracionColoresFondo"/>
+                <Button
+                    android:id="@+id/guardar_nota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Guardar"
+                    android:textStyle="bold"
+                    android:onClick="guardarNota"/>
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/configuracion_Colores"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/configuracion_notas"
+        android:background="@drawable/borde_configuracion"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/configuracion_volver"
+            android:src="@drawable/ic_flecha_bajar"
+            android:background="@null"
+            android:layout_marginTop="12dp"
+            android:onClick="cerrarConfiguracion" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/configuracion_volver">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5sp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_blanco"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorBlanco"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_negro"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorNegro"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_rojo"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorRojo"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_verde"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorVerde"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_rosado"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorRosado"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_yelow"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorAmarillo"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_cyan"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorCyan"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_verde2"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="textColorVerde2"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/configuracion_Colores_fondo"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/configuracion_notas"
+        android:background="@drawable/borde_configuracion"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flecha_bajar"
+            android:id="@+id/configuracion_volver_fondo"
+            android:background="@null"
+            android:layout_marginTop="12dp"
+            android:onClick="cerrarConfiguracion" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/configuracion_volver_fondo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5sp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_blanco"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorBlanco"/>
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_verde"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorVerde"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_rosado"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorRosado"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_yelow"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorAmarillo"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_cyan"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorCyan"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_color_verde2"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="backColorVerde2"/>
+
+
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

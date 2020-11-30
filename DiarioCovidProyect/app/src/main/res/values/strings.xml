@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Daily Post</string>
+
+
+    <string name="app_politicas">Esta política de privacidad rige su uso de la aplicación de software DailyPost para dispositivos móviles Android que fue creada por David Alejandro Nuñez Rangel.
+\n\n¿Qué información recopilamos?
+\nLa aplicación no recopila información personal como nombre, apellido, edad, fecha de nacimiento, etc.
+Utilizamos la información de seguimiento del rendimiento de la aplicación proporcionada por Google para mejorar la aplicación.
+
+\n\nConducta de usuario
+
+\nUsted comprende y acepta que toda la información, datos, textos, fotografías, videos, mensajes u otros materiales ("Contenido"), sea que se fijen públicamente o se guarden privadamente, son únicamente responsabilidad de la persona que originó dicho Contenido. Esto significa que usted y no DailyPost, es enteramente responsable por el contenido que usted cargue, publique, envíe, transmita o de cualquier forma ponga a disposición a través de la aplicación. DailyPost no controla el contenido publicado a través del servicio y, por tal motivo, no garantiza la exactitud, integridad o calidad de tal contenido. Usted comprende y acepta que por el uso de la aplicación, usted puede estar expuesto a contenido que puede ser ofensivo, indecente o cuestionable. Bajo ninguna circunstancia  DailyPost será responsable en cualquier forma por cualquier contenido, incluyendo, pero sin limitarse a cualquier error u omisión en cualquier contenido, o por cualquier pérdida o daño de cualquier tipo ocasionado como resultado del uso de cualquier contenido publicado.
+
+\n\nContacto
+\nPara contactarnos, utilice el correo electrónico: aclahs25@gmail.com
+</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

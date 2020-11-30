@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffff">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_muro_mensaje">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagen_perfil"
+            android:src="@drawable/ic_person_red"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imagen_perfil"
+            android:text="UserName"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="12dp"
+            android:id="@+id/eliminar_comentario"
+            android:text="x"
+            android:textSize="10dp"
+            android:background="#FF0000"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/contenido_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_layout1"
+        android:text="Mensaje Usuario"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:background="@drawable/borde_muro_mensaje"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Gastos</string>
+    <string name="msg_Bienvenido">Bienvenido</string>
+    <string name="MAIN_Button_Ingreso">Ingresar</string>
+    <string name="MAIN_txt_nombre">Ingrese su Nombre</string>
+    <string name="MAIN_txt_apellido">Ingrese su apellido</string>
+    <string name="AVATAR_txt_elegirAvatar">Selecciona tu avatar</string>
+    <string name="INGRESO_presupuesto">Presupuesto semanal</string>
+    <string name="INGRESO_Titulo">Titulo del gasto</string>
+    <string name="INGRESO_valorGadto">Valor del gasto</string>
+    <string name="INGRESO_Fecha">Fecha del gasto</string>
+    <string name="INGRESO_Button_Guardar">Guardar</string>
+    <string name="INGRESO_Actualizar">Actualizar presupuesto</string>
+    <string name="textview">TextView</string>
+    <string name="INGRESO_ET_NEWPRESUPUESTO">Nuevo presupuesto</string>
+    <string name="INGRESO_Button_Reini">Nueva Semana</string>
+    <string name="INGRESO_Button_Histo">Ver Gastos</string>
+    <string name="GASTOS_TituloGasto">Titulo del gasto</string>
+    <string name="GASTOS_BORRAR">Borrar</string>
+    <string name="GASTOS_VOLVER">Volver</string>
+    <string name="INGRESO_verSemanaAnterior">Ver semana anterior</string>
+    <string name="GASTOS2_semanaAnterior">Semana Anterior</string>
+    <string name="INGRESO_TotalGastado">Total Gastado</string>
+    <string name="INGRESO_TotalAhorrado">Total Ahorrado</string>
+    <string name="INGRESO_PresupuestoMSG">Presupuesto</string>
+
+
+</resources>

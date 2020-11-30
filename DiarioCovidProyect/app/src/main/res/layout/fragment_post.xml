@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.PostFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/imagen_perfil"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:layout_toRightOf="@+id/imagen_perfil"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textColor="#DC000000"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contenido_texto"
+                android:hint="¿Como te sientes?"
+                android:background="@drawable/borde_1"
+                android:layout_below="@+id/imagen_perfil"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contenido_texto"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:id="@+id/cara_triste"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_cara_triste" />
+
+                <ImageButton
+                    android:id="@+id/cara_normal"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_cara_normal"
+                    android:layout_toRightOf="@+id/cara_triste"/>
+
+
+                <ImageButton
+                    android:id="@+id/cara_feliz"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_cara_feliz"
+                    android:layout_toRightOf="@id/cara_normal"/>
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/estado_animo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative_layout2"
+                android:text="Estado Animo"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_horizontal"/>
+
+
+            <Button
+                android:id="@+id/P_postear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Postear"
+                android:background="@color/colorAccent"
+                android:layout_below="@id/estado_animo"
+                android:layout_marginTop="10dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
