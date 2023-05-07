@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView phraseText;
 
+    private ImageView imageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         lottieHeartButton = findViewById(R.id.lottieHeartButton);
         lottieHeartFly = findViewById(R.id.lottieHeartFly);
         phraseText = findViewById(R.id.phraseText);
+        imageView = findViewById(R.id.image);
 
         lottieHeartButton.playAnimation();
         lottieHeartButton.setOnClickListener(v -> {
@@ -33,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
             lottieHeartFly.setVisibility(View.VISIBLE);
             phraseText.setText(Utils.getRandomPhrase());
             phraseText.setVisibility(View.VISIBLE);
+
+            if (Utils.showPhoto()) {
+                imageView.setBackgroundResource(Utils.getRandomPhoto());
+                imageView.setVisibility(View.VISIBLE);
+            }
         });
 
 
@@ -42,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             lottieHeartButton.playAnimation();
             lottieHeartButton.setVisibility(View.VISIBLE);
             phraseText.setVisibility(View.GONE);
+            imageView.setVisibility(View.GONE);
         });
     }
 }

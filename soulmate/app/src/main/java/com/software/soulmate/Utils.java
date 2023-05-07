@@ -249,5 +249,26 @@ public class Utils {
             return generateLovingPhrase();
     }
 
+    public static Boolean showPhoto() {
+        Random random = new Random();
+
+        int x = random.nextInt(10);
+        return x > 5;
+    }
+
+    private static final List<Integer> photos = Arrays.asList(R.drawable.h1, R.drawable.h2, R.drawable.h3, R.drawable.h4,
+            R.drawable.h5, R.drawable.h6, R.drawable.h7, R.drawable.h8, R.drawable.h9, R.drawable.h10, R.drawable.h11,
+            R.drawable.h12, R.drawable.h13, R.drawable.h14, R.drawable.h15, R.drawable.h16, R.drawable.h17, R.drawable.h18,
+            R.drawable.h19, R.drawable.h20, R.drawable.h21, R.drawable.h22, R.drawable.h23, R.drawable.h24, R.drawable.h25,
+            R.drawable.h26, R.drawable.h27);
+
+    public static Integer getRandomPhoto() {
+        Random random = new Random();
+
+        int x = random.nextInt(27);
+
+        return photos.get(x);
+    }
+
 
 }
